@@ -1,0 +1,180 @@
+*{
+
+    font-family: Palatino;
+    font-weight:700px;
+    font-size: large;
+
+}
+    
+.chandu{
+    position: relative; 
+    width: 100%;
+    min-height:100vh;
+ 
+   
+  
+
+    
+   
+}
+
+.nav{
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+   
+
+    
+
+}
+ .logo{
+
+    width: 90px;
+    margin-left: 50px;
+    margin-top: 30px;
+ }
+  .van {
+
+    display: flex;
+    margin-right: 50px;
+    margin-top: 50px;
+   
+    justify-content:space-evenly ;
+   
+    
+     
+  }
+  .van li{
+    
+    margin-left: 20px;
+    list-style: none; 
+    padding-right: 10px ;
+   
+   
+
+  }
+  .van li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    padding:10px;
+
+  }
+  .van li a:hover{
+  
+    color: aliceblue;
+    background-color: black;
+  }
+  .continer{
+    
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    
+
+
+  }
+   
+   
+   .textbox a{
+     text-decoration:none;
+     border-style: solid;
+     border-color: rgb(9, 77, 54);
+     background-color: rgb(19, 77, 54);
+     color: white;
+     margin-left: 44px;
+     padding: 8px;
+     border-radius: 40px;
+ }
+     .textbox h2{
+           line-height: 1.3em;
+           font-weight: 800;
+           font-size: 3em;
+
+     }
+     .textbox h2 span{
+
+      color: #446A46;
+      font-weight:800;
+      font-size:1.6em;
+     }
+       .continer .star{
+     
+         width: 700px;
+         margin-top:10px;
+         margin-right: 100px;
+         display:flex;
+         justify-content: flex-end;
+         padding-right: 40px;
+        
+       } 
+       .img{
+         height: 400px;
+        
+       }
+        .continer .textbox{
+
+          position: relative;
+          max-width: 600px;
+          margin-left: 70px;
+        }
+        
+       .continer .star .img{
+
+        max-width: 360px;
+       } 
+        img{
+
+          height: 90px;
+        }
+          .three{
+            display: flex;
+           justify-content:center ;
+           position: absolute;
+           left: 500px;
+           bottom: 4px;
+
+          } 
+          .three li{
+          list-style :none;
+          padding: 20px;
+          cursor: pointer;
+          transition: 0.5s;
+
+          } 
+           .three li:hover{
+                transform: translateY(-18px);
+           }
+             .foot li{
+
+              list-style:none;
+             }
+           .last{
+             height: 20px;
+           } .foot{
+             position:absolute;
+             left:95%;
+             bottom: 35%;
+             align-items: center;
+             filter: invert(1);
+           } 
+            .circle{
+              position: absolute;
+             top: 0;
+             left: 0;
+              width: 100vw;
+              height: 100vh;
+             background-color: #305a32;
+             clip-path: circle(600px at right 800px);
+            }
+
+          
+   
+
+
+
+   
+ 
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starbucks</title>
+    <link rel="stylesheet" href="bucks.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <section class="chandu">
+        <div class="circle"></div>
+     
+        <a href="#" ><img class="logo" src="starbucks.png" alt="logo"></a>
+        <nav class="nav">
+            <ul class="van">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" >menu</a></li>
+                <li><a href="#" >what's New</a></li>
+                <li><a href="#" >Contact</a></li>
+            
+            </ul>
+        </nav>
+          <main class="continer">
+              <div class="textbox">
+               <h2>it's not just Coffee <br>it's <span>Starbucks</span></h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Quaerat aliquam iusto nesciunt
+                    qui unde fugiat, totam earum, ab nulla pariatur temporibus
+                     similique eveniet quisquam ipsa 
+                    modi quam, quas iure.</p>
+                    <a href="#">LEARN MORE</a>
+               </div>
+               <div  class="star">
+                   <img  class="img" src="img.1.png" alt="starbuck pic">
+               </div>
+           
+    
+          </main>
+       
+              <ul class="three">
+                  <li> <img src="thumsup.1.png" onclick="imgSlider('img.1.png'); changeColor('#017143')"></li>
+                  <li> <img src="thumsup.2.png" onclick="imgSlider('img.2.png'); changeColor('#eb7495')"></li>
+                  <li> <img src="thumsup.3.png" onclick="imgSlider('img.3.png'); changeColor('#da49b1')"></li>
+              </ul>
+            
+                  <ul class="foot">
+                      <li> <a href="#"> <img class="last" src="facebook.png" alt="facebook"></a></li>
+                      <li><a href="#"> <img class="last"  src="instagram.png" alt="instagram"></a></li>
+                      <li><a href="#"> <img class="last"  src="twitter.png" alt="twitter"></a></li>
+                </ul>
+            
+          
+    
+    </section>
+      <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.img').src=anything;
+        }
+        function changeColor(color){
+            const circle=document.querySelector('.circle'); 
+            circle.style.background=color;
+        }
+      </script>
+     
+</body>
+</html>
